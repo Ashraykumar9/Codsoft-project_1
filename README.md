@@ -69,7 +69,7 @@ int main()
     getline(cin, userName);
 
     int rangeStart, rangeEnd;
-    cout << "Enter the range for the number (e.g., 1 100): ";
+    cout << "Enter the range for the number (e.g., 1 200): ";
     cin >> rangeStart >> rangeEnd;
 
     playGame(rangeStart, rangeEnd, userName);
